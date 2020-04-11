@@ -6,4 +6,5 @@ aws iam create-role \
   --assume-role-policy-document file://politicas.json \
   | tee logs/role.log
 
-3o criar arquivo com conteudo e zipa-lo
+#3o criar arquivo com conteudo e zipa-lo
+zip function.zip index.js
