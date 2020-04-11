@@ -5,3 +5,5 @@ aws iam create-role \
   --role-name lambda-exemplo \
   --assume-role-policy-document file://politicas.json \
   | tee logs/role.log
+
+3o criar arquivo com conteudo e zipa-lo
